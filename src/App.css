@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.dashboard-header {
+  color: #888;
+}
+
+/* src/App.css */
+.dashboard {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.panel {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+}
+
+.panel h3 {
+  margin: 0;
+}
+
+.aggregated-data {
+  font-size: 1.2em;
+  color: #333;
+}
